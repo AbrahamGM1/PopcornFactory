@@ -55,7 +55,7 @@ class CatalogActivity : AppCompatActivity() {
 
         constructor(context: Context, pelicula: ArrayList<Pelicula>){
             this.context=context
-            this.peliculas=peliculas
+            this.peliculas=pelicula
         }
 
         override fun getCount(): Int {
