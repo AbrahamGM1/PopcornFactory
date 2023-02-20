@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/almostblack"
+    tools:context=".PurchaseSumary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/babygray"
+        android:text="PURCHASE SUMMARY"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/mustard"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLIENT NAME: "
+            android:textColor="@color/mustard"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txtViewClient"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/babygray"
+            android:layout_marginLeft="2dp"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT: "
+        android:textColor="@color/mustard"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txtViewPayment"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/babygray"
+        android:layout_marginLeft="2dp"
+        android:textSize="20sp"
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEAT: "
+            android:textColor="@color/mustard"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txtViewSeat"
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/babygray"
+            android:layout_marginLeft="2dp"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:textColor="@color/almostblack"
+        android:text="OK"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/botonok"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        />
+
+
+</LinearLayout>
